@@ -30,13 +30,33 @@ while i < len(lines):
         price = data[10]
         net_price = data[11]
         order_type = data[12]
-        print(symbol)
-        if spread == "VERTICAL":
-            print(spread + " change---------------")
-            i += 1
-        elif spread == "IRON CONDOR" or spread == "VERT ROLL":
-            i += 3
-        #break
+        if position_effect == "TO CLOSE":
+            pass
+        else:
+            key = (spread, symbol, expiration)
+            value = {}
+            value["spread"] = spread
+            value["side"] = side
+            value["quantity"] = quantity
+            value["net_price"] = net_price
+            legs = []
+            temp = {}
+            leg = {}
+            temp["quantity"] = quantity
+            temp["expiration"] = expiration
+            temp["side"] = side
+            temp["strike"] = strike
+            temp["price"] = price
+            leg[0] = temp
+            legs.append(leg)
+            value["legs"] = legs
+            positions[key] = value
+
+            if spread == "VERTICAL":
+                i += 1
+            elif spread == "IRON CONDOR" or spread == "VERT ROLL":
+                i += 3
     i += 1
 
+print(positions)
 file.close()
