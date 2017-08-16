@@ -40,11 +40,6 @@ def build_leg_dictionary(order):
         "option_type": order[9]
     }
 
-def add_position(order, legs):
-    # symbol, spread, expiration
-    key = (order[6], order[2], order[7])
-    value = build_position_dictionary(order, legs)
-    positions[key] = value
 
 def parse_file(lines):
     check = False
@@ -56,31 +51,42 @@ def parse_file(lines):
             return positions
         if check:
             order = lines[i].split(",")
-            # position_effect
-            if order[5] == "TO CLOSE":
-                pass
+            key = (order[6], order[2], order[7])
+            # position effect
+            if order[5] == "TO CLOSE" and key in positions.keys():
+                print(positions[key])
             else:
                 legs = [build_leg_dictionary(order)]
                 # spread
                 if order[2] == "VERTICAL":
                     i += 1
                     new_order = lines[i].split(",")
+                    # check if debit or credit
+                    if new_order[11] == "DEBIT":
+                        order[11] = str(float(order[11]) * -1)
                     legs.append(build_leg_dictionary(new_order))
                 elif order[2] == "IRON CONDOR" or order[2] == "VERT ROLL":
                     for x in range(1, 4):
                         new_order = lines[i + x].split(",")
+                        if x == 1 and new_order[11] == "DEBIT":
+                            order[11] = str(float(order[11]) * -1)
                         # position effect
-                        if new_order[5] == "TO OPEN":
-                            legs.append(build_leg_dictionary(new_order))
+                        if new_order[5] == "TO CLOSE" and key in positions.keys():
+                            # net price
+                            positions[key]["net_price"] =
+                                str(float(positions[key]["net_price"]) + float(order[11]))
+                        legs.append(build_leg_dictionary(new_order))
                     i += 3
-                add_position(order, legs)
+                value = build_position_dictionary(order, legs)
+                positions[key] = value
         i += 1
 
 def main():
     file = open("2017-08-15-AccountStatement.csv")
     lines = file.readlines()
     file.close()
-    print(parse_file(lines))
+    parse_file(lines)
+    #print(parse_file(lines))
 
 if __name__ == "__main__":
     positions = {}
