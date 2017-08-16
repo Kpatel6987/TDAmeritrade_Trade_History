@@ -6,57 +6,73 @@
 ,,,BUY,+1,TO OPEN,NFLX,1 SEP 17,160,PUT,1.32,CREDIT,
 '''
 
-file = open("2017-08-15-AccountStatement.csv")
-lines = file.readlines()
+'''
+    exec_time = order[1]
+    spread = order[2]
+    side = order[3]
+    quantity = order[4]
+    position_effect = order[5]
+    symbol = order[6]
+    expiration = order[7]
+    strike = order[8]
+    option_type = order[9]
+    price = order[10]
+    net_price = order[11]
+    order_type = order[12]
+'''
+
+def build_position_dictionary(order, legs):
+    return {
+        "spread": order[2],
+        "side": order[3],
+        "quantity": order[4],
+        "net_price": order[11],
+        "legs": legs
+    }
+
+def build_leg_dictionary(order):
+    return {
+        "quantity": order[4],
+        "expiration": order[7],
+        "side": order[3],
+        "strike": order[8],
+        "price": order[10]
+    }
+
+def add_position(order):
+    legs = [build_leg_dictionary(order)]
+    # symbol, spread, expiration
+    key = (order[6], order[2], order[7])
+    value = build_position_dictionary(order, legs)
+    positions[key] = value
+
+def parse_file(lines):
+    check = False
+    i = 0
+    while i < len(lines):
+        if i > 2 and lines[i - 2].strip() == "Account Trade History":
+            check = True
+        if check and lines[i].strip() == "":
+            return positions
+        if check:
+            order = lines[i].split(",")
+            # position_effect
+            if order[5] == "TO CLOSE":
+                pass
+            else:
+                add_position(order)
+                # spread
+                if order[2] == "VERTICAL":
+                    i += 1
+                elif order[2] == "IRON CONDOR" or order[2] == "VERT ROLL":
+                    i += 3
+        i += 1
+
+def main():
+    file = open("2017-08-15-AccountStatement.csv")
+    lines = file.readlines()
+    file.close()
+    print(parse_file(lines))
+
 positions = {}
-check = False
-i = 0
-while i < len(lines):
-    if i > 2 and lines[i - 2].strip() == "Account Trade History":
-        check = True
-    if check and lines[i].strip() == "":
-        break
-    if check:
-        data = lines[i].split(",")
-        exec_time = data[1]
-        spread = data[2]
-        side = data[3]
-        quantity = data[4]
-        position_effect = data[5]
-        symbol = data[6]
-        expiration = data[7]
-        strike = data[8]
-        option_type = data[9]
-        price = data[10]
-        net_price = data[11]
-        order_type = data[12]
-        if position_effect == "TO CLOSE":
-            pass
-        else:
-            key = (spread, symbol, expiration)
-            value = {}
-            value["spread"] = spread
-            value["side"] = side
-            value["quantity"] = quantity
-            value["net_price"] = net_price
-            legs = []
-            temp = {}
-            leg = {}
-            temp["quantity"] = quantity
-            temp["expiration"] = expiration
-            temp["side"] = side
-            temp["strike"] = strike
-            temp["price"] = price
-            leg[0] = temp
-            legs.append(leg)
-            value["legs"] = legs
-            positions[key] = value
-
-            if spread == "VERTICAL":
-                i += 1
-            elif spread == "IRON CONDOR" or spread == "VERT ROLL":
-                i += 3
-    i += 1
-
-print(positions)
-file.close()
+main()
