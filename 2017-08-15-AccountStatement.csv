@@ -1,0 +1,360 @@
+﻿Account Statement for 487186093TDA () since 6/24/17 through 8/15/17
+
+Cash Balance
+DATE,TIME,TYPE,DESCRIPTION,Commissions & Fees,AMOUNT,BALANCE
+6/24/17,01:00:00,BAL,Cash balance at the start of business day 24.06 CST,,,"1,805.23"
+6/25/17,01:00:00,BAL,Cash balance at the start of business day 25.06 CST,,,"1,805.23"
+6/26/17,01:00:00,BAL,Cash balance at the start of business day 26.06 CST,,,"1,805.23"
+6/26/17,12:53:42,TRD,BOT +2 AAPL 100 (Weeklys) 4 AUG 17 137 PUT @1.18,-3.00,-236.00,"1,566.18"
+6/26/17,12:53:42,TRD,SOLD -2 AAPL 100 (Weeklys) 4 AUG 17 140 PUT @1.80,-3.00,360.00,"1,923.12"
+6/26/17,13:48:54,TRD,SOLD -2 NUGT 100 21 JUL 17 41 CALL @.65,-3.00,130.00,"2,050.07"
+6/26/17,13:48:54,TRD,BOT +2 NUGT 100 21 JUL 17 24 PUT @.21,-3.00,-42.00,"2,005.02"
+6/26/17,13:48:54,TRD,SOLD -2 NUGT 100 21 JUL 17 27 PUT @.54,-3.00,108.00,"2,109.97"
+6/26/17,13:48:54,TRD,BOT +2 NUGT 100 21 JUL 17 44 CALL @.39,-3.00,-78.00,"2,028.92"
+6/27/17,01:00:00,BAL,Cash balance at the start of business day 27.06 CST,,,"2,028.92"
+6/27/17,12:32:47,TRD,Ordinary Dividend~SPYD,,1.76,"2,030.68"
+6/27/17,12:32:52,TRD,BOT +0.049 SPYD @35.71429,,-1.76,"2,028.92"
+6/27/17,12:35:06,TRD,Ordinary Dividend~REET,,2.76,"2,031.68"
+6/27/17,12:35:19,TRD,BOT +0.107 REET @25.79439,,-2.76,"2,028.92"
+6/28/17,01:00:00,BAL,Cash balance at the start of business day 28.06 CST,,,"2,028.92"
+6/28/17,16:24:22,TRD,Ordinary Dividend~VEU,,2.74,"2,031.66"
+6/28/17,16:24:54,TRD,BOT +0.054 VEU @50.37037,,-2.74,"2,028.92"
+6/29/17,01:00:00,BAL,Cash balance at the start of business day 29.06 CST,,,"2,028.92"
+6/30/17,01:00:00,BAL,Cash balance at the start of business day 30.06 CST,,,"2,028.92"
+6/30/17,22:48:38,TRD,Money Market Interest,,0.01,"2,028.93"
+7/1/17,01:00:00,BAL,Cash balance at the start of business day 01.07 CST,,,"2,028.93"
+7/1/17,04:11:42,TRD,Margin Interest Adjustment,,-1.37,"2,027.56"
+7/1/17,05:23:07,TRD,Removal of Option due to expiration,,,"2,027.56"
+7/2/17,01:00:00,BAL,Cash balance at the start of business day 02.07 CST,,,"2,027.56"
+7/3/17,01:00:00,BAL,Cash balance at the start of business day 03.07 CST,,,"2,027.56"
+7/3/17,16:17:52,TRD,BOT +0.015 BAC @24.66667,,-0.38,"2,027.18"
+7/3/17,16:18:20,TRD,Qualified Dividend~BAC,,0.38,"2,027.56"
+7/4/17,01:00:00,BAL,Cash balance at the start of business day 04.07 CST,,,"2,027.56"
+7/5/17,01:00:00,BAL,Cash balance at the start of business day 05.07 CST,,,"2,027.56"
+7/5/17,10:43:51,TRD,BOT +2 NUGT 100 21 JUL 17 41 CALL @.15,-3.00,-30.00,"1,994.51"
+7/5/17,10:43:51,TRD,SOLD -2 NUGT 100 21 JUL 17 44 CALL @.09,-3.00,18.00,"2,009.46"
+7/6/17,01:00:00,BAL,Cash balance at the start of business day 06.07 CST,,,"2,009.46"
+7/6/17,16:10:17,TRD,Ordinary Dividend~VBR,,0.85,"2,010.31"
+7/6/17,16:10:59,TRD,BOT +0.007 VBR @122.85714,,-0.85,"2,009.46"
+7/7/17,01:00:00,BAL,Cash balance at the start of business day 07.07 CST,,,"2,009.46"
+7/8/17,01:00:00,BAL,Cash balance at the start of business day 08.07 CST,,,"2,009.46"
+7/9/17,01:00:00,BAL,Cash balance at the start of business day 09.07 CST,,,"2,009.46"
+7/10/17,01:00:00,BAL,Cash balance at the start of business day 10.07 CST,,,"2,009.46"
+7/11/17,01:00:00,BAL,Cash balance at the start of business day 11.07 CST,,,"2,009.46"
+7/12/17,01:00:00,BAL,Cash balance at the start of business day 12.07 CST,,,"2,009.46"
+7/12/17,09:47:20,TRD,BOT +2 XOP 100 21 JUL 17 28 PUT @.04,-3.00,-8.00,"1,998.41"
+7/12/17,09:47:20,TRD,SOLD -2 XOP 100 21 JUL 17 25.5 PUT @.01,-3.00,2.00,"1,997.36"
+7/13/17,01:00:00,BAL,Cash balance at the start of business day 13.07 CST,,,"1,997.36"
+7/14/17,01:00:00,BAL,Cash balance at the start of business day 14.07 CST,,,"1,997.36"
+7/14/17,09:48:29,TRD,BOT +2 NFLX 100 (Weeklys) 11 AUG 17 150 PUT @4.30,-3.00,-860.00,"1,134.31"
+7/14/17,09:48:29,TRD,SOLD -2 NFLX 100 (Weeklys) 11 AUG 17 152.5 PUT @5.15,-3.00,"1,030.00","2,161.24"
+7/15/17,01:00:00,BAL,Cash balance at the start of business day 15.07 CST,,,"2,161.24"
+7/16/17,01:00:00,BAL,Cash balance at the start of business day 16.07 CST,,,"2,161.24"
+7/17/17,01:00:00,BAL,Cash balance at the start of business day 17.07 CST,,,"2,161.24"
+7/18/17,01:00:00,BAL,Cash balance at the start of business day 18.07 CST,,,"2,161.24"
+7/19/17,01:00:00,BAL,Cash balance at the start of business day 19.07 CST,,,"2,161.24"
+7/20/17,01:00:00,BAL,Cash balance at the start of business day 20.07 CST,,,"2,161.24"
+7/20/17,09:35:34,TRD,SOLD -2 TSLA 100 21 JUL 17 357.5 PUT @29.97,-3.00,"5,994.00","8,152.05"
+7/20/17,09:35:34,TRD,BOT +2 TSLA 100 21 JUL 17 360 PUT @32.43,-3.00,"-6,486.00","1,663.00"
+7/20/17,09:35:34,TRD,BOT +2 TSLA 100 18 AUG 17 355 PUT @33.98,-3.00,"-6,796.00","-5,136.05"
+7/20/17,09:35:34,TRD,SOLD -2 TSLA 100 18 AUG 17 360 PUT @37.76,-3.00,"7,552.00","2,412.73"
+7/20/17,09:40:03,TRD,BOT +2 XOP 100 21 JUL 17 32.5 CALL @.51,-3.00,-102.00,"2,307.68"
+7/20/17,09:40:03,TRD,BOT +2 XOP 100 (Weeklys) 28 JUL 17 34.5 CALL @.10,-3.00,-20.00,"2,284.63"
+7/20/17,09:40:03,TRD,SOLD -2 XOP 100 (Weeklys) 28 JUL 17 32.5 CALL @.78,-3.00,156.00,"2,437.58"
+7/20/17,09:40:03,TRD,SOLD -2 XOP 100 21 JUL 17 34.5 CALL @.01,-3.00,2.00,"2,436.53"
+7/21/17,01:00:00,BAL,Cash balance at the start of business day 21.07 CST,,,"2,436.53"
+7/21/17,01:49:30,TRD,Money Market Redemption,,"1,020.80","3,457.33"
+7/21/17,01:49:30,TRD,Money Market Redemption,,"-1,020.80","2,436.53"
+7/22/17,01:00:00,BAL,Cash balance at the start of business day 22.07 CST,,,"2,436.53"
+7/22/17,10:54:48,TRD,Removal of Option due to expiration,,,"2,436.53"
+7/22/17,10:57:22,TRD,Removal of Option due to expiration,,,"2,436.53"
+7/22/17,11:24:38,TRD,Removal of Option due to expiration,,,"2,436.53"
+7/22/17,11:33:36,TRD,Removal of Option due to expiration,,,"2,436.53"
+7/22/17,12:39:28,TRD,Money Market Purchase,,"1,100.00","3,536.53"
+7/22/17,12:39:28,TRD,Money Market Purchase,,"-1,100.00","2,436.53"
+7/23/17,01:00:00,BAL,Cash balance at the start of business day 23.07 CST,,,"2,436.53"
+7/24/17,01:00:00,BAL,Cash balance at the start of business day 24.07 CST,,,"2,436.53"
+7/25/17,01:00:00,BAL,Cash balance at the start of business day 25.07 CST,,,"2,436.53"
+7/25/17,09:56:11,TRD,BOT +2 XOP 100 (Weeklys) 28 JUL 17 32.5 CALL @.43,-3.00,-86.00,"2,347.48"
+7/26/17,01:00:00,BAL,Cash balance at the start of business day 26.07 CST,,,"2,347.48"
+7/26/17,02:07:29,TRD,Money Market Purchase,,-310.95,"2,036.53"
+7/26/17,02:07:30,TRD,Money Market Purchase,,310.95,"2,347.48"
+7/27/17,01:00:00,BAL,Cash balance at the start of business day 27.07 CST,,,"2,347.48"
+7/28/17,01:00:00,BAL,Cash balance at the start of business day 28.07 CST,,,"2,347.48"
+7/29/17,01:00:00,BAL,Cash balance at the start of business day 29.07 CST,,,"2,347.48"
+7/29/17,02:56:29,TRD,Removal of Option due to expiration,,,"2,347.48"
+7/30/17,01:00:00,BAL,Cash balance at the start of business day 30.07 CST,,,"2,347.48"
+7/31/17,01:00:00,BAL,Cash balance at the start of business day 31.07 CST,,,"2,347.48"
+7/31/17,22:49:58,TRD,Money Market Interest,,0.02,"2,347.50"
+8/1/17,01:00:00,BAL,Cash balance at the start of business day 01.08 CST,,,"2,347.50"
+8/1/17,16:08:43,TRD,Ordinary Dividend~SPY,,3.62,"2,351.12"
+8/1/17,16:08:56,TRD,BOT +0.015 SPY @247.33333,,-3.62,"2,347.50"
+8/2/17,01:00:00,BAL,Cash balance at the start of business day 02.08 CST,,,"2,347.50"
+8/2/17,02:08:38,TRD,Money Market Purchase,,-1.76,"2,345.74"
+8/2/17,02:08:44,TRD,Money Market Purchase,,1.76,"2,347.50"
+8/3/17,01:00:00,BAL,Cash balance at the start of business day 03.08 CST,,,"2,347.50"
+8/3/17,10:02:20,TRD,BOT +2 AAPL 100 15 SEP 17 145 PUT @1.23,-3.00,-246.00,"2,098.46"
+8/3/17,10:02:20,TRD,SOLD -2 AAPL 100 15 SEP 17 150 PUT @2.35,-3.00,470.00,"2,565.41"
+8/4/17,01:00:00,BAL,Cash balance at the start of business day 04.08 CST,,,"2,565.41"
+8/4/17,13:44:57,TRD,BOT +2 NVDA 100 15 SEP 17 140 PUT @1.77,-3.00,-354.00,"2,208.37"
+8/4/17,13:44:57,TRD,SOLD -2 NVDA 100 15 SEP 17 145 PUT @2.54,-3.00,508.00,"2,713.32"
+8/4/17,13:51:17,TRD,BOT +1 NUGT 100 15 SEP 17 19 PUT @.22,-1.50,-22.00,"2,689.80"
+8/4/17,13:51:17,TRD,BOT +1 NUGT 100 15 SEP 17 44 CALL @.39,-1.50,-39.00,"2,649.28"
+8/4/17,13:51:17,TRD,SOLD -1 NUGT 100 15 SEP 17 40 CALL @.66,-1.50,66.00,"2,713.76"
+8/4/17,13:51:17,TRD,SOLD -1 NUGT 100 15 SEP 17 23 PUT @.69,-1.50,69.00,"2,781.24"
+8/5/17,01:00:00,BAL,Cash balance at the start of business day 05.08 CST,,,"2,781.24"
+8/5/17,02:29:10,TRD,Removal of Option due to expiration,,,"2,781.24"
+8/5/17,02:48:24,TRD,Removal of Option due to expiration,,,"2,781.24"
+8/5/17,04:45:43,TRD,Money Market Redemption,,"1,366.26","4,147.50"
+8/5/17,04:45:45,TRD,Money Market Redemption,,"-1,366.26","2,781.24"
+8/6/17,01:00:00,BAL,Cash balance at the start of business day 06.08 CST,,,"2,781.24"
+8/7/17,01:00:00,BAL,Cash balance at the start of business day 07.08 CST,,,"2,781.24"
+8/8/17,01:00:00,BAL,Cash balance at the start of business day 08.08 CST,,,"2,781.24"
+8/9/17,01:00:00,BAL,Cash balance at the start of business day 09.08 CST,,,"2,781.24"
+8/10/17,01:00:00,BAL,Cash balance at the start of business day 10.08 CST,,,"2,781.24"
+8/10/17,12:19:24,TRD,SOLD -1 AAPL 100 15 SEP 17 150 PUT @2.02,-1.50,202.00,"2,981.72"
+8/10/17,12:19:24,TRD,BOT +1 AAPL 100 15 SEP 17 145 PUT @1.16,-1.50,-116.00,"2,864.20"
+8/11/17,01:00:00,BAL,Cash balance at the start of business day 11.08 CST,,,"2,864.20"
+8/12/17,01:00:00,BAL,Cash balance at the start of business day 12.08 CST,,,"2,864.20"
+8/12/17,02:34:11,TRD,Removal of Option due to expiration,,,"2,864.20"
+8/12/17,02:49:41,TRD,Removal of Option due to expiration,,,"2,864.20"
+8/12/17,04:03:38,TRD,Money Market Purchase,,-82.96,"2,781.24"
+8/12/17,04:03:40,TRD,Money Market Purchase,,82.96,"2,864.20"
+8/13/17,01:00:00,BAL,Cash balance at the start of business day 13.08 CST,,,"2,864.20"
+8/14/17,01:00:00,BAL,Cash balance at the start of business day 14.08 CST,,,"2,864.20"
+8/14/17,15:15:02,TRD,BOT +5 UVXY 100 15 SEP 17 26 PUT @1.68,-7.50,-840.00,"2,016.60"
+8/14/17,15:15:02,TRD,SOLD -5 UVXY 100 15 SEP 17 27 PUT @2.12,-7.50,"1,060.00","3,068.98"
+8/14/17,15:23:00,TRD,BOT +1 NFLX 100 (Weeklys) 1 SEP 17 160 PUT @1.32,-1.50,-132.00,"2,935.46"
+8/14/17,15:23:00,TRD,SOLD -1 NFLX 100 (Weeklys) 1 SEP 17 165 PUT @2.40,-1.50,240.00,"3,173.93"
+8/15/17,01:00:00,BAL,Cash balance at the start of business day 15.08 CST,,,"3,173.93"
+,,,TOTAL,($102.00),"$1,472.66","$3,173.93"
+
+Futures Statements
+Trade Date,Exec Date,Exec Time,Type,Ref #,Description,Misc Fees,Commissions & Fees,Amount,Balance
+
+Forex Statements
+,Date,Time,Type,Ref #,Description,Commissions & Fees,Amount,Amount(USD),Balance
+,6/24/17,01:00:00,BAL,--,Cash balance at the start of the business day 24.06 CST,--,--,--,$0.00
+,6/25/17,01:00:00,BAL,--,Cash balance at the start of the business day 25.06 CST,--,--,--,$0.00
+,6/26/17,01:00:00,BAL,--,Cash balance at the start of the business day 26.06 CST,--,--,--,$0.00
+,6/27/17,01:00:00,BAL,--,Cash balance at the start of the business day 27.06 CST,--,--,--,$0.00
+,6/28/17,01:00:00,BAL,--,Cash balance at the start of the business day 28.06 CST,--,--,--,$0.00
+,6/29/17,01:00:00,BAL,--,Cash balance at the start of the business day 29.06 CST,--,--,--,$0.00
+,6/30/17,01:00:00,BAL,--,Cash balance at the start of the business day 30.06 CST,--,--,--,$0.00
+,7/1/17,01:00:00,BAL,--,Cash balance at the start of the business day 01.07 CST,--,--,--,$0.00
+,7/2/17,01:00:00,BAL,--,Cash balance at the start of the business day 02.07 CST,--,--,--,$0.00
+,7/3/17,01:00:00,BAL,--,Cash balance at the start of the business day 03.07 CST,--,--,--,$0.00
+,7/4/17,01:00:00,BAL,--,Cash balance at the start of the business day 04.07 CST,--,--,--,$0.00
+,7/5/17,01:00:00,BAL,--,Cash balance at the start of the business day 05.07 CST,--,--,--,$0.00
+,7/6/17,01:00:00,BAL,--,Cash balance at the start of the business day 06.07 CST,--,--,--,$0.00
+,7/7/17,01:00:00,BAL,--,Cash balance at the start of the business day 07.07 CST,--,--,--,$0.00
+,7/8/17,01:00:00,BAL,--,Cash balance at the start of the business day 08.07 CST,--,--,--,$0.00
+,7/9/17,01:00:00,BAL,--,Cash balance at the start of the business day 09.07 CST,--,--,--,$0.00
+,7/10/17,01:00:00,BAL,--,Cash balance at the start of the business day 10.07 CST,--,--,--,$0.00
+,7/11/17,01:00:00,BAL,--,Cash balance at the start of the business day 11.07 CST,--,--,--,$0.00
+,7/12/17,01:00:00,BAL,--,Cash balance at the start of the business day 12.07 CST,--,--,--,$0.00
+,7/13/17,01:00:00,BAL,--,Cash balance at the start of the business day 13.07 CST,--,--,--,$0.00
+,7/14/17,01:00:00,BAL,--,Cash balance at the start of the business day 14.07 CST,--,--,--,$0.00
+,7/15/17,01:00:00,BAL,--,Cash balance at the start of the business day 15.07 CST,--,--,--,$0.00
+,7/16/17,01:00:00,BAL,--,Cash balance at the start of the business day 16.07 CST,--,--,--,$0.00
+,7/17/17,01:00:00,BAL,--,Cash balance at the start of the business day 17.07 CST,--,--,--,$0.00
+,7/18/17,01:00:00,BAL,--,Cash balance at the start of the business day 18.07 CST,--,--,--,$0.00
+,7/19/17,01:00:00,BAL,--,Cash balance at the start of the business day 19.07 CST,--,--,--,$0.00
+,7/20/17,01:00:00,BAL,--,Cash balance at the start of the business day 20.07 CST,--,--,--,$0.00
+,7/21/17,01:00:00,BAL,--,Cash balance at the start of the business day 21.07 CST,--,--,--,$0.00
+,7/22/17,01:00:00,BAL,--,Cash balance at the start of the business day 22.07 CST,--,--,--,$0.00
+,7/23/17,01:00:00,BAL,--,Cash balance at the start of the business day 23.07 CST,--,--,--,$0.00
+,7/24/17,01:00:00,BAL,--,Cash balance at the start of the business day 24.07 CST,--,--,--,$0.00
+,7/25/17,01:00:00,BAL,--,Cash balance at the start of the business day 25.07 CST,--,--,--,$0.00
+,7/26/17,01:00:00,BAL,--,Cash balance at the start of the business day 26.07 CST,--,--,--,$0.00
+,7/27/17,01:00:00,BAL,--,Cash balance at the start of the business day 27.07 CST,--,--,--,$0.00
+,7/28/17,01:00:00,BAL,--,Cash balance at the start of the business day 28.07 CST,--,--,--,$0.00
+,7/29/17,01:00:00,BAL,--,Cash balance at the start of the business day 29.07 CST,--,--,--,$0.00
+,7/30/17,01:00:00,BAL,--,Cash balance at the start of the business day 30.07 CST,--,--,--,$0.00
+,7/31/17,01:00:00,BAL,--,Cash balance at the start of the business day 31.07 CST,--,--,--,$0.00
+,8/1/17,01:00:00,BAL,--,Cash balance at the start of the business day 01.08 CST,--,--,--,$0.00
+,8/2/17,01:00:00,BAL,--,Cash balance at the start of the business day 02.08 CST,--,--,--,$0.00
+,8/3/17,01:00:00,BAL,--,Cash balance at the start of the business day 03.08 CST,--,--,--,$0.00
+,8/4/17,01:00:00,BAL,--,Cash balance at the start of the business day 04.08 CST,--,--,--,$0.00
+,8/5/17,01:00:00,BAL,--,Cash balance at the start of the business day 05.08 CST,--,--,--,$0.00
+,8/6/17,01:00:00,BAL,--,Cash balance at the start of the business day 06.08 CST,--,--,--,$0.00
+,8/7/17,01:00:00,BAL,--,Cash balance at the start of the business day 07.08 CST,--,--,--,$0.00
+,8/8/17,01:00:00,BAL,--,Cash balance at the start of the business day 08.08 CST,--,--,--,$0.00
+,8/9/17,01:00:00,BAL,--,Cash balance at the start of the business day 09.08 CST,--,--,--,$0.00
+,8/10/17,01:00:00,BAL,--,Cash balance at the start of the business day 10.08 CST,--,--,--,$0.00
+,8/11/17,01:00:00,BAL,--,Cash balance at the start of the business day 11.08 CST,--,--,--,$0.00
+,8/12/17,01:00:00,BAL,--,Cash balance at the start of the business day 12.08 CST,--,--,--,$0.00
+,8/13/17,01:00:00,BAL,--,Cash balance at the start of the business day 13.08 CST,--,--,--,$0.00
+,8/14/17,01:00:00,BAL,--,Cash balance at the start of the business day 14.08 CST,--,--,--,$0.00
+,8/15/17,01:00:00,BAL,--,Cash balance at the start of the business day 15.08 CST,--,--,--,$0.00
+
+ 
+"Total Cash $3,173.93"
+
+
+Account Order History
+Notes,,Time Placed,Spread,Side,Qty,Pos Effect,Symbol,Exp,Strike,Type,PRICE,,TIF,Status
+,,8/14/17 15:23:00,VERTICAL,SELL,-1,TO OPEN,NFLX,1 SEP 17,165,PUT,1.08,LMT,DAY,FILLED
+,,,,BUY,+1,TO OPEN,NFLX,1 SEP 17,160,PUT,<empty>,,,
+,,8/14/17 15:22:43,VERTICAL,SELL,-1,TO OPEN,NFLX,1 SEP 17,165,PUT,1.09,LMT,DAY,CANCELED
+,,,,BUY,+1,TO OPEN,NFLX,1 SEP 17,160,PUT,<empty>,,,
+,,8/14/17 15:15:01,VERTICAL,SELL,-5,TO OPEN,UVXY,15 SEP 17,27,PUT,.44,LMT,DAY,FILLED
+,,,,BUY,+5,TO OPEN,UVXY,15 SEP 17,26,PUT,<empty>,,,
+,,8/14/17 15:14:46,VERTICAL,SELL,-5,TO OPEN,UVXY,15 SEP 17,27,PUT,.45,LMT,DAY,CANCELED
+,,,,BUY,+5,TO OPEN,UVXY,15 SEP 17,26,PUT,<empty>,,,
+,,8/10/17 12:19:18,VERTICAL,SELL,-1,TO OPEN,AAPL,15 SEP 17,150,PUT,.86,LMT,DAY,FILLED
+,,,,BUY,+1,TO OPEN,AAPL,15 SEP 17,145,PUT,<empty>,,,
+,,8/10/17 12:19:10,VERTICAL,SELL,-2,TO OPEN,AAPL,15 SEP 17,150,PUT,.86,LMT,DAY,REJECTED
+,,,,BUY,+2,TO OPEN,AAPL,15 SEP 17,145,PUT,<empty>,,,
+,,8/4/17 13:51:16,IRON CONDOR,SELL,-1,TO OPEN,NUGT,15 SEP 17,40,CALL,.73,LMT,DAY,FILLED
+,,,,BUY,+1,TO OPEN,NUGT,15 SEP 17,44,CALL,<empty>,,,
+,,,,SELL,-1,TO OPEN,NUGT,15 SEP 17,23,PUT,<empty>,,,
+,,,,BUY,+1,TO OPEN,NUGT,15 SEP 17,19,PUT,<empty>,,,
+,,8/4/17 13:44:56,VERTICAL,SELL,-2,TO OPEN,NVDA,15 SEP 17,145,PUT,.77,LMT,DAY,FILLED
+,,,,BUY,+2,TO OPEN,NVDA,15 SEP 17,140,PUT,<empty>,,,
+,,8/4/17 13:43:14,VERTICAL,SELL,-2,TO OPEN,NVDA,15 SEP 17,145,PUT,.78,LMT,DAY,CANCELED
+,,,,BUY,+2,TO OPEN,NVDA,15 SEP 17,140,PUT,<empty>,,,
+,,8/4/17 13:42:12,VERTICAL,SELL,-2,TO OPEN,NVDA,15 SEP 17,145,PUT,.79,LMT,DAY,CANCELED
+,,,,BUY,+2,TO OPEN,NVDA,15 SEP 17,140,PUT,<empty>,,,
+,,8/4/17 13:41:53,VERTICAL,SELL,-2,TO OPEN,NVDA,15 SEP 17,145,PUT,.81,LMT,DAY,CANCELED
+,,,,BUY,+2,TO OPEN,NVDA,15 SEP 17,140,PUT,<empty>,,,
+,,8/3/17 10:01:47,VERTICAL,SELL,-2,TO OPEN,AAPL,15 SEP 17,150,PUT,1.12,LMT,DAY,FILLED
+,,,,BUY,+2,TO OPEN,AAPL,15 SEP 17,145,PUT,<empty>,,,
+,,7/25/17 09:56:10,SINGLE,BUY,+2,TO CLOSE,XOP,28 JUL 17,32.5,CALL,.43,LMT,DAY,FILLED
+,,7/20/17 09:39:49,VERT ROLL,SELL,-2,TO OPEN,XOP,28 JUL 17,32.5,CALL,.18,LMT,DAY,FILLED
+,,,,BUY,+2,TO OPEN,XOP,28 JUL 17,34.5,CALL,<empty>,,,
+,,,,BUY,+2,TO CLOSE,XOP,21 JUL 17,32.5,CALL,<empty>,,,
+,,,,SELL,-2,TO CLOSE,XOP,21 JUL 17,34.5,CALL,<empty>,,,
+,,7/20/17 09:37:38,VERT ROLL,SELL,-2,TO OPEN,XOP,28 JUL 17,32.5,CALL,.21,LMT,DAY,CANCELED
+,,,,BUY,+2,TO OPEN,XOP,28 JUL 17,34.5,CALL,<empty>,,,
+,,,,BUY,+2,TO CLOSE,XOP,21 JUL 17,32.5,CALL,<empty>,,,
+,,,,SELL,-2,TO CLOSE,XOP,21 JUL 17,34.5,CALL,<empty>,,,
+,,7/20/17 09:35:33,VERT ROLL,SELL,-2,TO OPEN,TSLA,18 AUG 17,360,PUT,1.32,LMT,DAY,FILLED
+,,,,BUY,+2,TO OPEN,TSLA,18 AUG 17,355,PUT,<empty>,,,
+,,,,BUY,+2,TO CLOSE,TSLA,21 JUL 17,360,PUT,<empty>,,,
+,,,,SELL,-2,TO CLOSE,TSLA,21 JUL 17,357.5,PUT,<empty>,,,
+,,7/14/17 09:48:28,VERTICAL,SELL,-2,TO OPEN,NFLX,11 AUG 17,152.5,PUT,.85,LMT,DAY,FILLED
+,,,,BUY,+2,TO OPEN,NFLX,11 AUG 17,150,PUT,<empty>,,,
+,,7/14/17 09:48:14,VERTICAL,SELL,-2,TO OPEN,NFLX,11 AUG 17,152.5,PUT,.89,LMT,DAY,CANCELED
+,,,,BUY,+2,TO OPEN,NFLX,11 AUG 17,150,PUT,<empty>,,,
+,,7/12/17 09:43:56,VERTICAL,BUY,+2,TO CLOSE,XOP,21 JUL 17,28,PUT,.03,LMT,DAY,FILLED
+,,,,SELL,-2,TO CLOSE,XOP,21 JUL 17,25.5,PUT,<empty>,,,
+,,7/11/17 10:51:19,VERTICAL,BUY,+2,TO CLOSE,XOP,21 JUL 17,28,PUT,.04,LMT,DAY,EXPIRED
+,,,,SELL,-2,TO CLOSE,XOP,21 JUL 17,25.5,PUT,<empty>,,,
+,,7/5/17 10:46:01,VERT ROLL,SELL,-2,TO OPEN,TSLA,4 AUG 17,360,PUT,.90,LMT,DAY,EXPIRED
+,,,,BUY,+2,TO OPEN,TSLA,4 AUG 17,357.5,PUT,<empty>,,,
+,,,,BUY,+2,TO CLOSE,TSLA,21 JUL 17,360,PUT,<empty>,,,
+,,,,SELL,-2,TO CLOSE,TSLA,21 JUL 17,357.5,PUT,<empty>,,,
+,,7/5/17 10:43:45,VERTICAL,BUY,+2,TO CLOSE,NUGT,21 JUL 17,41,CALL,.06,LMT,DAY,FILLED
+,,,,SELL,-2,TO CLOSE,NUGT,21 JUL 17,44,CALL,<empty>,,,
+,,7/5/17 10:43:30,VERTICAL,BUY,+2,TO CLOSE,NUGT,21 JUL 17,41,CALL,.03,LMT,DAY,CANCELED
+,,,,SELL,-2,TO CLOSE,NUGT,21 JUL 17,44,CALL,<empty>,,,
+,,7/5/17 10:21:51,VERTICAL,BUY,+2,TO CLOSE,XOP,21 JUL 17,28,PUT,.07,LMT,DAY,EXPIRED
+,,,,SELL,-2,TO CLOSE,XOP,21 JUL 17,25.5,PUT,<empty>,,,
+,,6/26/17 13:48:53,IRON CONDOR,SELL,-2,TO OPEN,NUGT,21 JUL 17,41,CALL,.59,LMT,DAY,FILLED
+,,,,BUY,+2,TO OPEN,NUGT,21 JUL 17,44,CALL,<empty>,,,
+,,,,SELL,-2,TO OPEN,NUGT,21 JUL 17,27,PUT,<empty>,,,
+,,,,BUY,+2,TO OPEN,NUGT,21 JUL 17,24,PUT,<empty>,,,
+,,6/26/17 13:12:27,IRON CONDOR,SELL,-2,TO OPEN,NUGT,21 JUL 17,41,CALL,.60,LMT,DAY,CANCELED
+,,,,BUY,+2,TO OPEN,NUGT,21 JUL 17,44,CALL,<empty>,,,
+,,,,SELL,-2,TO OPEN,NUGT,21 JUL 17,27,PUT,<empty>,,,
+,,,,BUY,+2,TO OPEN,NUGT,21 JUL 17,24,PUT,<empty>,,,
+,,6/26/17 13:11:28,IRON CONDOR,SELL,-2,TO OPEN,NUGT,21 JUL 17,41,CALL,.61,LMT,DAY,CANCELED
+,,,,BUY,+2,TO OPEN,NUGT,21 JUL 17,44,CALL,<empty>,,,
+,,,,SELL,-2,TO OPEN,NUGT,21 JUL 17,27,PUT,<empty>,,,
+,,,,BUY,+2,TO OPEN,NUGT,21 JUL 17,24,PUT,<empty>,,,
+,,6/26/17 12:53:23,VERTICAL,SELL,-2,TO OPEN,AAPL,4 AUG 17,140,PUT,.62,LMT,DAY,FILLED
+,,,,BUY,+2,TO OPEN,AAPL,4 AUG 17,137,PUT,<empty>,,,
+
+Account Trade History
+,Exec Time,Spread,Side,Qty,Pos Effect,Symbol,Exp,Strike,Type,Price,Net Price,Order Type
+,8/14/17 15:23:00,VERTICAL,SELL,-1,TO OPEN,NFLX,1 SEP 17,165,PUT,2.40,1.08,LMT
+,,,BUY,+1,TO OPEN,NFLX,1 SEP 17,160,PUT,1.32,CREDIT,
+,8/14/17 15:15:02,VERTICAL,SELL,-5,TO OPEN,UVXY,15 SEP 17,27,PUT,2.12,.44,LMT
+,,,BUY,+5,TO OPEN,UVXY,15 SEP 17,26,PUT,1.68,CREDIT,
+,8/10/17 12:19:24,VERTICAL,SELL,-1,TO OPEN,AAPL,15 SEP 17,150,PUT,2.02,.86,LMT
+,,,BUY,+1,TO OPEN,AAPL,15 SEP 17,145,PUT,1.16,CREDIT,
+,8/4/17 13:51:17,IRON CONDOR,SELL,-1,TO OPEN,NUGT,15 SEP 17,40,CALL,.66,.74,LMT
+,,,BUY,+1,TO OPEN,NUGT,15 SEP 17,44,CALL,.39,CREDIT,
+,,,SELL,-1,TO OPEN,NUGT,15 SEP 17,23,PUT,.69,,
+,,,BUY,+1,TO OPEN,NUGT,15 SEP 17,19,PUT,.22,,
+,8/4/17 13:44:57,VERTICAL,SELL,-2,TO OPEN,NVDA,15 SEP 17,145,PUT,2.54,.77,LMT
+,,,BUY,+2,TO OPEN,NVDA,15 SEP 17,140,PUT,1.77,CREDIT,
+,8/3/17 10:02:20,VERTICAL,SELL,-2,TO OPEN,AAPL,15 SEP 17,150,PUT,2.35,1.12,LMT
+,,,BUY,+2,TO OPEN,AAPL,15 SEP 17,145,PUT,1.23,CREDIT,
+,7/25/17 09:56:11,SINGLE,BUY,+2,TO CLOSE,XOP,28 JUL 17,32.5,CALL,.43,.43,LMT
+,7/20/17 09:40:02,VERT ROLL,SELL,-2,TO OPEN,XOP,28 JUL 17,32.5,CALL,.78,.18,LMT
+,,,BUY,+2,TO OPEN,XOP,28 JUL 17,34.5,CALL,.10,CREDIT,
+,,,BUY,+2,TO CLOSE,XOP,21 JUL 17,32.5,CALL,.51,,
+,,,SELL,-2,TO CLOSE,XOP,21 JUL 17,34.5,CALL,.01,,
+,7/20/17 09:35:34,VERT ROLL,SELL,-2,TO OPEN,TSLA,18 AUG 17,360,PUT,37.76,1.32,LMT
+,,,BUY,+2,TO OPEN,TSLA,18 AUG 17,355,PUT,33.98,CREDIT,
+,,,BUY,+2,TO CLOSE,TSLA,21 JUL 17,360,PUT,32.43,,
+,,,SELL,-2,TO CLOSE,TSLA,21 JUL 17,357.5,PUT,29.97,,
+,7/14/17 09:48:28,VERTICAL,SELL,-2,TO OPEN,NFLX,11 AUG 17,152.5,PUT,5.15,.85,LMT
+,,,BUY,+2,TO OPEN,NFLX,11 AUG 17,150,PUT,4.30,CREDIT,
+,7/12/17 09:47:20,VERTICAL,BUY,+2,TO CLOSE,XOP,21 JUL 17,28,PUT,.04,.03,LMT
+,,,SELL,-2,TO CLOSE,XOP,21 JUL 17,25.5,PUT,.01,DEBIT,
+,7/5/17 10:43:51,VERTICAL,BUY,+2,TO CLOSE,NUGT,21 JUL 17,41,CALL,.15,.06,LMT
+,,,SELL,-2,TO CLOSE,NUGT,21 JUL 17,44,CALL,.09,DEBIT,
+,6/26/17 13:48:54,IRON CONDOR,SELL,-2,TO OPEN,NUGT,21 JUL 17,41,CALL,.65,.59,LMT
+,,,BUY,+2,TO OPEN,NUGT,21 JUL 17,44,CALL,.39,CREDIT,
+,,,SELL,-2,TO OPEN,NUGT,21 JUL 17,27,PUT,.54,,
+,,,BUY,+2,TO OPEN,NUGT,21 JUL 17,24,PUT,.21,,
+,6/26/17 12:53:42,VERTICAL,SELL,-2,TO OPEN,AAPL,4 AUG 17,140,PUT,1.80,.62,LMT
+,,,BUY,+2,TO OPEN,AAPL,4 AUG 17,137,PUT,1.18,CREDIT,
+
+Equities
+Symbol,Description,Qty,Trade Price,Mark,Mark Value
+AAPL,APPLE INC COM,+10.191,1.7544893,161.65,"$1,647.38"
+REET,ISHARES TRUST GLOBAL REIT ETF,+10.581,1.393063,25.66,$271.51
+BAC,BANK OF AMERICA CORP COM,+5.073,.2247191,24.47,$124.14
+VEU,VANGUARD INTL EQUITY INDEX,+5.113,1.0541756,51.27,$262.14
+VBR,VANGUARD CRSP US SMALL CAP VALUE IND ET,+2.039,2.2952428,121.14,$247.00
+SPYD,SPDR SERIES TRUST S&P HIGH DIVIDEND ETF,+5.178,1.2147547,35.20,$182.27
+NAK,NORTHERN DYNASTY MINERALS COM,+220,2.27,1.39,$305.80
+SPY,SPDR TR S&P 500 ETF TR,+3.077,4.5693858,246.62,$758.85
+,OVERALL TOTALS,,,,"$3,799.08"
+
+Options
+Symbol,Option Code,Exp,Strike,Type,Qty,Trade Price,Mark,Mark Value
+NFLX,NFLX170901P160,1 SEP 17,160,PUT,+1,1.32,1.335,$133.50
+NFLX,NFLX170901P165,1 SEP 17,165,PUT,-1,2.40,2.555,($255.50)
+NVDA,NVDA170915P140,15 SEP 17,140,PUT,+2,1.77,.52,$104.00
+NVDA,NVDA170915P145,15 SEP 17,145,PUT,-2,2.54,.905,($181.00)
+AAPL,AAPL170915P145,15 SEP 17,145,PUT,+3,1.2066667,.435,$130.50
+AAPL,AAPL170915P150,15 SEP 17,150,PUT,-3,2.24,.795,($238.50)
+UVXY,UVXY170915P26,15 SEP 17,26,PUT,+5,1.68,1.835,$917.50
+UVXY,UVXY170915P27,15 SEP 17,27,PUT,-5,2.12,2.335,"($1,167.50)"
+NUGT,NUGT170915P19,15 SEP 17,19,PUT,+1,.22,.075,$7.50
+NUGT,NUGT170915P23,15 SEP 17,23,PUT,-1,.69,.345,($34.50)
+NUGT,NUGT170915C40,15 SEP 17,40,CALL,-1,.66,.475,($47.50)
+NUGT,NUGT170915C44,15 SEP 17,44,CALL,+1,.39,.235,$23.50
+TSLA,TSLA170818P355,18 AUG 17,355,PUT,+2,33.98,1.775,$355.00
+TSLA,TSLA170818P360,18 AUG 17,360,PUT,-2,37.76,3.425,($685.00)
+,,,,,,,,($938.00)
+
+Profits and Losses
+Symbol,Description,P/L Open,P/L %,P/L Day,Mark Value
+AAPL,APPLE INC COM,"$1,831.50",+626.97%,$54.34,"$1,539.38"
+BAC,BANK OF AMERICA CORP COM,$123.00,+10789.15%,$0.25,$124.14
+NAK,NORTHERN DYNASTY MINERALS COM,($193.60),-38.77%,($6.60),$305.80
+NFLX,NETFLIX.COM INC COM,($14.00),-12.96%,($20.00),($122.00)
+NUGT,DIREXION DLY GLD MNERS IDX BULL 3X SHR,$23.00,+31.08%,N/A,($51.00)
+NVDA,NVIDIA CORP COM,$77.00,+50.00%,($2.00),($77.00)
+REET,ISHARES TRUST GLOBAL REIT ETF,$256.77,+1741.98%,($0.74),$271.51
+SPY,SPDR TR S&P 500 ETF TR,$744.79,+5297.22%,$0.25,$758.85
+SPYD,SPDR SERIES TRUST S&P HIGH DIVIDEND ETF,$175.98,+2797.70%,($0.31),$182.27
+TSLA,TESLA INC COM,$426.00,+56.35%,($17.00),($330.00)
+UVXY,PROSHARES ULTRA VIX SHRT TM FUTURES ETF,($30.00),-13.64%,($27.50),($250.00)
+VBR,VANGUARD CRSP US SMALL CAP VALUE IND ET,$242.32,+5177.87%,($1.49),$247.00
+VEU,VANGUARD INTL EQUITY INDEX,$256.75,+4763.52%,($0.41),$262.14
+,OVERALL TOTALS,"$3,919.50",+182.32%,N/A,"$2,861.08"
+
+Account Summary
+Net Liquidating Value,"$6,035.02"
+Stock Buying Power,$447.20
+Option Buying Power,$223.60
+Equity Commissions & Fees YTD,N/A
+Futures Commissions & Fees YTD,$0.00
+Total Commissions & Fees YTD,N/A
