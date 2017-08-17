@@ -1,12 +1,5 @@
 import json
-
-'''
-,Exec Time,Spread,Side,Qty,Pos Effect,Symbol,Exp,Strike,Type,Price,Net Price,Order Type
-
-,8/14/17 15:23:00,VERTICAL,SELL,-1,TO OPEN,NFLX,1 SEP 17,165,PUT,2.40,1.08,LMT
-
-,,,BUY,+1,TO OPEN,NFLX,1 SEP 17,160,PUT,1.32,CREDIT,
-'''
+import datetime
 
 '''
     exec_time = order[1]
@@ -102,6 +95,10 @@ def main():
     file.close()
     pos = parse_file(lines)
     print(json.dumps(pos, indent=4))
+
+    filename = "{}_trade_history.txt".format(datetime.datetime.now().strftime ("%m%d%Y"))
+    with open(filename, "w") as out:
+        json.dump(pos, out, indent=4)
 
 
 
