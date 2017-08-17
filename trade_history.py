@@ -1,3 +1,4 @@
+import sys
 import json
 import datetime
 
@@ -25,6 +26,7 @@ def build_position_dictionary(order, legs):
         "num_legs": len(legs)
     }
 
+
 def build_leg_dictionary(order, base_order):
     return {
         "date": base_order[1],
@@ -38,14 +40,17 @@ def build_leg_dictionary(order, base_order):
         "price": order[10]
     }
 
+
 def handle_two_legs(order, legs, lines, i):
     new_order = lines[i].split(",")
     legs.append(build_leg_dictionary(new_order, order))
+
 
 def handle_four_legs(order, legs, lines, i):
     for x in range(1, 4):
         new_order = lines[i + x].split(",")
         legs.append(build_leg_dictionary(new_order, order))
+
 
 def add_position(order, key, legs):
     if key in positions.keys():
@@ -57,6 +62,7 @@ def add_position(order, key, legs):
         positions[key] = value
     update_pl(order, key, legs)
 
+
 def update_pl(order, key, legs):
     pl = 0.0
     commission = 0.0
@@ -66,6 +72,7 @@ def update_pl(order, key, legs):
     positions[key]["total_pl"] = "{0:.2f}".format((pl - commission) * 100)
     positions[key]["pl"] = "{0:.2f}".format(pl * 100)
     positions[key]["commission"] = "{0:.2f}".format(commission * 100)
+
 
 def parse_file(lines):
     check = False
@@ -89,13 +96,16 @@ def parse_file(lines):
             add_position(order, key, legs)
         i += 1
 
+
 def main():
-    file = open("2017-08-15-AccountStatement.csv")
+    file = open(sys.argv[1])
     lines = file.readlines()
     file.close()
+    if not ("Account Statement for" in lines[0] and "TDA" in lines[0]):
+        print("Sorry cannot parse this file")
+        return
     pos = parse_file(lines)
     print(json.dumps(pos, indent=4))
-
     filename = "{}_trade_history.txt".format(datetime.datetime.now().strftime ("%m%d%Y"))
     with open(filename, "w") as out:
         json.dump(pos, out, indent=4)

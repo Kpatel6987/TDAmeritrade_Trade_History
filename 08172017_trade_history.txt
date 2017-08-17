@@ -1,0 +1,443 @@
+{
+    "XOP": {
+        "num_legs": 1,
+        "pl": "-56.00",
+        "commission": "21.00",
+        "legs": [
+            {
+                "expiration": "21 JUL 17",
+                "quantity": "+2",
+                "price": ".04",
+                "strike": "28",
+                "option_type": "PUT",
+                "side": "BUY",
+                "date": "7/12/17 09:47:20",
+                "position_effect": "TO CLOSE",
+                "spread": "VERTICAL"
+            },
+            {
+                "expiration": "21 JUL 17",
+                "quantity": "-2",
+                "price": ".01",
+                "strike": "25.5",
+                "option_type": "PUT",
+                "side": "SELL",
+                "date": "7/12/17 09:47:20",
+                "position_effect": "TO CLOSE",
+                "spread": "VERTICAL"
+            },
+            {
+                "expiration": "28 JUL 17",
+                "quantity": "-2",
+                "price": ".78",
+                "strike": "32.5",
+                "option_type": "CALL",
+                "side": "SELL",
+                "date": "7/20/17 09:40:02",
+                "position_effect": "TO OPEN",
+                "spread": "VERT ROLL"
+            },
+            {
+                "expiration": "28 JUL 17",
+                "quantity": "+2",
+                "price": ".10",
+                "strike": "34.5",
+                "option_type": "CALL",
+                "side": "BUY",
+                "date": "7/20/17 09:40:02",
+                "position_effect": "TO OPEN",
+                "spread": "VERT ROLL"
+            },
+            {
+                "expiration": "21 JUL 17",
+                "quantity": "+2",
+                "price": ".51",
+                "strike": "32.5",
+                "option_type": "CALL",
+                "side": "BUY",
+                "date": "7/20/17 09:40:02",
+                "position_effect": "TO CLOSE",
+                "spread": "VERT ROLL"
+            },
+            {
+                "expiration": "21 JUL 17",
+                "quantity": "-2",
+                "price": ".01",
+                "strike": "34.5",
+                "option_type": "CALL",
+                "side": "SELL",
+                "date": "7/20/17 09:40:02",
+                "position_effect": "TO CLOSE",
+                "spread": "VERT ROLL"
+            },
+            {
+                "expiration": "28 JUL 17",
+                "quantity": "+2",
+                "price": ".43",
+                "strike": "32.5",
+                "option_type": "CALL",
+                "side": "BUY",
+                "date": "7/25/17 09:56:11",
+                "position_effect": "TO CLOSE",
+                "spread": "SINGLE"
+            }
+        ],
+        "total_pl": "-77.00"
+    },
+    "UVXY": {
+        "num_legs": 2,
+        "pl": "220.00",
+        "commission": "15.00",
+        "legs": [
+            {
+                "expiration": "15 SEP 17",
+                "quantity": "-5",
+                "price": "2.12",
+                "strike": "27",
+                "option_type": "PUT",
+                "side": "SELL",
+                "date": "8/14/17 15:15:02",
+                "position_effect": "TO OPEN",
+                "spread": "VERTICAL"
+            },
+            {
+                "expiration": "15 SEP 17",
+                "quantity": "+5",
+                "price": "1.68",
+                "strike": "26",
+                "option_type": "PUT",
+                "side": "BUY",
+                "date": "8/14/17 15:15:02",
+                "position_effect": "TO OPEN",
+                "spread": "VERTICAL"
+            }
+        ],
+        "total_pl": "205.00"
+    },
+    "NUGT": {
+        "num_legs": 4,
+        "pl": "180.00",
+        "commission": "24.00",
+        "legs": [
+            {
+                "expiration": "21 JUL 17",
+                "quantity": "-2",
+                "price": ".65",
+                "strike": "41",
+                "option_type": "CALL",
+                "side": "SELL",
+                "date": "6/26/17 13:48:54",
+                "position_effect": "TO OPEN",
+                "spread": "IRON CONDOR"
+            },
+            {
+                "expiration": "21 JUL 17",
+                "quantity": "+2",
+                "price": ".39",
+                "strike": "44",
+                "option_type": "CALL",
+                "side": "BUY",
+                "date": "6/26/17 13:48:54",
+                "position_effect": "TO OPEN",
+                "spread": "IRON CONDOR"
+            },
+            {
+                "expiration": "21 JUL 17",
+                "quantity": "-2",
+                "price": ".54",
+                "strike": "27",
+                "option_type": "PUT",
+                "side": "SELL",
+                "date": "6/26/17 13:48:54",
+                "position_effect": "TO OPEN",
+                "spread": "IRON CONDOR"
+            },
+            {
+                "expiration": "21 JUL 17",
+                "quantity": "+2",
+                "price": ".21",
+                "strike": "24",
+                "option_type": "PUT",
+                "side": "BUY",
+                "date": "6/26/17 13:48:54",
+                "position_effect": "TO OPEN",
+                "spread": "IRON CONDOR"
+            },
+            {
+                "expiration": "21 JUL 17",
+                "quantity": "+2",
+                "price": ".15",
+                "strike": "41",
+                "option_type": "CALL",
+                "side": "BUY",
+                "date": "7/5/17 10:43:51",
+                "position_effect": "TO CLOSE",
+                "spread": "VERTICAL"
+            },
+            {
+                "expiration": "21 JUL 17",
+                "quantity": "-2",
+                "price": ".09",
+                "strike": "44",
+                "option_type": "CALL",
+                "side": "SELL",
+                "date": "7/5/17 10:43:51",
+                "position_effect": "TO CLOSE",
+                "spread": "VERTICAL"
+            },
+            {
+                "expiration": "15 SEP 17",
+                "quantity": "-1",
+                "price": ".66",
+                "strike": "40",
+                "option_type": "CALL",
+                "side": "SELL",
+                "date": "8/4/17 13:51:17",
+                "position_effect": "TO OPEN",
+                "spread": "IRON CONDOR"
+            },
+            {
+                "expiration": "15 SEP 17",
+                "quantity": "+1",
+                "price": ".39",
+                "strike": "44",
+                "option_type": "CALL",
+                "side": "BUY",
+                "date": "8/4/17 13:51:17",
+                "position_effect": "TO OPEN",
+                "spread": "IRON CONDOR"
+            },
+            {
+                "expiration": "15 SEP 17",
+                "quantity": "-1",
+                "price": ".69",
+                "strike": "23",
+                "option_type": "PUT",
+                "side": "SELL",
+                "date": "8/4/17 13:51:17",
+                "position_effect": "TO OPEN",
+                "spread": "IRON CONDOR"
+            },
+            {
+                "expiration": "15 SEP 17",
+                "quantity": "+1",
+                "price": ".22",
+                "strike": "19",
+                "option_type": "PUT",
+                "side": "BUY",
+                "date": "8/4/17 13:51:17",
+                "position_effect": "TO OPEN",
+                "spread": "IRON CONDOR"
+            }
+        ],
+        "total_pl": "156.00"
+    },
+    "AAPL": {
+        "num_legs": 2,
+        "pl": "434.00",
+        "commission": "15.00",
+        "legs": [
+            {
+                "expiration": "4 AUG 17",
+                "quantity": "-2",
+                "price": "1.80",
+                "strike": "140",
+                "option_type": "PUT",
+                "side": "SELL",
+                "date": "6/26/17 12:53:42",
+                "position_effect": "TO OPEN",
+                "spread": "VERTICAL"
+            },
+            {
+                "expiration": "4 AUG 17",
+                "quantity": "+2",
+                "price": "1.18",
+                "strike": "137",
+                "option_type": "PUT",
+                "side": "BUY",
+                "date": "6/26/17 12:53:42",
+                "position_effect": "TO OPEN",
+                "spread": "VERTICAL"
+            },
+            {
+                "expiration": "15 SEP 17",
+                "quantity": "-2",
+                "price": "2.35",
+                "strike": "150",
+                "option_type": "PUT",
+                "side": "SELL",
+                "date": "8/3/17 10:02:20",
+                "position_effect": "TO OPEN",
+                "spread": "VERTICAL"
+            },
+            {
+                "expiration": "15 SEP 17",
+                "quantity": "+2",
+                "price": "1.23",
+                "strike": "145",
+                "option_type": "PUT",
+                "side": "BUY",
+                "date": "8/3/17 10:02:20",
+                "position_effect": "TO OPEN",
+                "spread": "VERTICAL"
+            },
+            {
+                "expiration": "15 SEP 17",
+                "quantity": "-1",
+                "price": "2.02",
+                "strike": "150",
+                "option_type": "PUT",
+                "side": "SELL",
+                "date": "8/10/17 12:19:24",
+                "position_effect": "TO OPEN",
+                "spread": "VERTICAL"
+            },
+            {
+                "expiration": "15 SEP 17",
+                "quantity": "+1",
+                "price": "1.16",
+                "strike": "145",
+                "option_type": "PUT",
+                "side": "BUY",
+                "date": "8/10/17 12:19:24",
+                "position_effect": "TO OPEN",
+                "spread": "VERTICAL"
+            }
+        ],
+        "total_pl": "419.00"
+    },
+    "NVDA": {
+        "num_legs": 2,
+        "pl": "154.00",
+        "commission": "6.00",
+        "legs": [
+            {
+                "expiration": "15 SEP 17",
+                "quantity": "-2",
+                "price": "2.54",
+                "strike": "145",
+                "option_type": "PUT",
+                "side": "SELL",
+                "date": "8/4/17 13:44:57",
+                "position_effect": "TO OPEN",
+                "spread": "VERTICAL"
+            },
+            {
+                "expiration": "15 SEP 17",
+                "quantity": "+2",
+                "price": "1.77",
+                "strike": "140",
+                "option_type": "PUT",
+                "side": "BUY",
+                "date": "8/4/17 13:44:57",
+                "position_effect": "TO OPEN",
+                "spread": "VERTICAL"
+            }
+        ],
+        "total_pl": "148.00"
+    },
+    "TSLA": {
+        "num_legs": 4,
+        "pl": "264.00",
+        "commission": "12.00",
+        "legs": [
+            {
+                "expiration": "18 AUG 17",
+                "quantity": "-2",
+                "price": "37.76",
+                "strike": "360",
+                "option_type": "PUT",
+                "side": "SELL",
+                "date": "7/20/17 09:35:34",
+                "position_effect": "TO OPEN",
+                "spread": "VERT ROLL"
+            },
+            {
+                "expiration": "18 AUG 17",
+                "quantity": "+2",
+                "price": "33.98",
+                "strike": "355",
+                "option_type": "PUT",
+                "side": "BUY",
+                "date": "7/20/17 09:35:34",
+                "position_effect": "TO OPEN",
+                "spread": "VERT ROLL"
+            },
+            {
+                "expiration": "21 JUL 17",
+                "quantity": "+2",
+                "price": "32.43",
+                "strike": "360",
+                "option_type": "PUT",
+                "side": "BUY",
+                "date": "7/20/17 09:35:34",
+                "position_effect": "TO CLOSE",
+                "spread": "VERT ROLL"
+            },
+            {
+                "expiration": "21 JUL 17",
+                "quantity": "-2",
+                "price": "29.97",
+                "strike": "357.5",
+                "option_type": "PUT",
+                "side": "SELL",
+                "date": "7/20/17 09:35:34",
+                "position_effect": "TO CLOSE",
+                "spread": "VERT ROLL"
+            }
+        ],
+        "total_pl": "252.00"
+    },
+    "NFLX": {
+        "num_legs": 2,
+        "pl": "278.00",
+        "commission": "9.00",
+        "legs": [
+            {
+                "expiration": "11 AUG 17",
+                "quantity": "-2",
+                "price": "5.15",
+                "strike": "152.5",
+                "option_type": "PUT",
+                "side": "SELL",
+                "date": "7/14/17 09:48:28",
+                "position_effect": "TO OPEN",
+                "spread": "VERTICAL"
+            },
+            {
+                "expiration": "11 AUG 17",
+                "quantity": "+2",
+                "price": "4.30",
+                "strike": "150",
+                "option_type": "PUT",
+                "side": "BUY",
+                "date": "7/14/17 09:48:28",
+                "position_effect": "TO OPEN",
+                "spread": "VERTICAL"
+            },
+            {
+                "expiration": "1 SEP 17",
+                "quantity": "-1",
+                "price": "2.40",
+                "strike": "165",
+                "option_type": "PUT",
+                "side": "SELL",
+                "date": "8/14/17 15:23:00",
+                "position_effect": "TO OPEN",
+                "spread": "VERTICAL"
+            },
+            {
+                "expiration": "1 SEP 17",
+                "quantity": "+1",
+                "price": "1.32",
+                "strike": "160",
+                "option_type": "PUT",
+                "side": "BUY",
+                "date": "8/14/17 15:23:00",
+                "position_effect": "TO OPEN",
+                "spread": "VERTICAL"
+            }
+        ],
+        "total_pl": "269.00"
+    }
+}
