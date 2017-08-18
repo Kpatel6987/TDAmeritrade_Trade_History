@@ -8,3 +8,9 @@ Writes the orders to a text file.
 As of now, only works with the TD Ameritrade downloaded Account Statement csv
 
 To run (python 3): ```$ python trade_history.py [CSV name]```
+
+
+## TODO
+* Write to mongodb or some other database
+* User specific?
+* REST API (Flask?)
