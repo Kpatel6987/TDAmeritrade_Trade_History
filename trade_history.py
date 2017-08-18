@@ -106,7 +106,7 @@ def main():
         return
     pos = parse_file(lines)
     print(json.dumps(pos, indent=4))
-    filename = "{}_trade_history.txt".format(datetime.datetime.now().strftime ("%m%d%Y"))
+    filename = "resources/{}_trade_history.txt".format(datetime.datetime.now().strftime ("%m%d%Y"))
     with open(filename, "w") as out:
         json.dump(pos, out, indent=4)
 
