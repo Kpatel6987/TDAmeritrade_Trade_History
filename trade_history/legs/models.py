@@ -6,13 +6,13 @@ class Leg(models.Model):
     OPTION_CHOICES = (("CALL", "CALL"), ("PUT", "PUT"))
     datetime = models.CharField(max_length=100)
     spread = models.CharField(max_length=100)
-    side = models.CharField(choices=SIDE_CHOICES)
+    side = models.CharField(max_length=10, choices=SIDE_CHOICES)
     quantity = models.IntegerField()
-    position_effect = models.CharField(choicecs=POSITION_CHOICES)
+    position_effect = models.CharField(max_length=20, choices=POSITION_CHOICES)
     expiration = models.CharField(max_length=100)
-    strike = models.DecimalField()
-    option_type = models.CharField(choices=OPTION_CHOICES)
-    price = models.DecimalField()
+    strike = models.DecimalField(max_digits=10, decimal_places=2)
+    option_type = models.CharField(max_length=10, choices=OPTION_CHOICES)
+    price = models.DecimalField(max_digits=10, decimal_places=2)
 
     def __str__(self):
         return self.pk
