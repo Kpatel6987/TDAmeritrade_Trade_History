@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'trade_history.users',
-    'trade_history.legs'
+    'trade_history.legs',
+    'trade_history.positions'
 ]
 
 MIDDLEWARE = [
