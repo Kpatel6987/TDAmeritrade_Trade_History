@@ -3,12 +3,12 @@ from rest_framework import serializers
 
 class UserSerializer(serializers.ModelSerializer):
     email = serializers.EmailField(label='Email Address')
-    #accounts = serializers.StringRelatedField(many=True)
     class Meta:
         model = User
         fields = [
             'username',
             'email',
+            'positions',
             'password',
         ]
         extra_kwargs = {
