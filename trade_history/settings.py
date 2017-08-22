@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'trade_history.trade_history',
     'trade_history.users',
     'trade_history.legs',
     'trade_history.positions'

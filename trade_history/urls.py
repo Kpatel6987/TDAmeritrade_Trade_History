@@ -18,6 +18,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    #url(r'^trade_history/', include("trade_history.trade_history.urls", namespace='trade_history')),
     url(r'^users/', include("trade_history.users.urls", namespace='users')),
     url(r'^positions/', include("trade_history.positions.urls", namespace='positions')),
     url(r'^legs/', include("trade_history.legs.urls", namespace='legs'))
