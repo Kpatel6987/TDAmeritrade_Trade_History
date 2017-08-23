@@ -9,4 +9,4 @@ class Position(models.Model):
     net_gain = models.DecimalField(max_digits=10, decimal_places=2, default=0.0)
 
     def __str__(self):
-        return str(self.pk)
+        return self.underlying

@@ -2,7 +2,6 @@ from .models import Position
 from rest_framework import serializers
 
 class PositionSerializer(serializers.ModelSerializer):
-    #accounts = serializers.StringRelatedField(many=True)
     class Meta:
         model = Position
         fields = [
@@ -13,3 +12,10 @@ class PositionSerializer(serializers.ModelSerializer):
             'commission',
             'net_gain'
         ]
+
+        extra_kwargs = {
+            "legs": {"read_only": True},
+            "pl": {"read_only": True},
+            "commission": {"read_only": True},
+            "net_gain": {"read_only": True}
+        }
