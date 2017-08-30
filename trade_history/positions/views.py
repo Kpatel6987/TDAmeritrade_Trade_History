@@ -1,10 +1,14 @@
 from django.shortcuts import render
 from .models import Position
-from rest_framework import generics
+from rest_framework import generics, permissions
 from .serializers import PositionSerializer
-from rest_framework import permissions
 
-class ListCreatePosition(generics.ListCreateAPIView):
+class ListPosition(generics.ListAPIView):
+    queryset = Position.objects.all()
+    serializer_class = PositionSerializer
+    permission_classes = (permissions.IsAdminUser,)
+
+class CreatePosition(generics.CreateAPIView):
     queryset = Position.objects.all()
     serializer_class = PositionSerializer
 

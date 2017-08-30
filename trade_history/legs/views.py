@@ -1,11 +1,16 @@
 import decimal
 from django.shortcuts import render
 from .models import Leg
-from rest_framework import generics
+from rest_framework import generics, permissions
 from .serializers import LegSerializer
 from ..positions.models import Position
 
-class ListCreateLeg(generics.ListCreateAPIView):
+class ListLeg(generics.ListAPIView):
+    queryset = Leg.objects.all()
+    serializer_class = LegSerializer
+    permission_classes = (permissions.IsAdminUser,)
+
+class CreateLeg(generics.CreateAPIView):
     queryset = Leg.objects.all()
     serializer_class = LegSerializer
 
