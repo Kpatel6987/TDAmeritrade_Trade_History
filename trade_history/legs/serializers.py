@@ -1,14 +1,16 @@
+import decimal
 from .models import Leg
 from ..positions.models import Position
 from rest_framework import serializers
-import decimal
 
 class LegSerializer(serializers.ModelSerializer):
-    position = serializers.StringRelatedField()
+    position = serializers.PrimaryKeyRelatedField(read_only=True)
+
     class Meta:
         model = Leg
         fields = [
             'position',
+            'underlying',
             'datetime',
             'spread',
             'side',
@@ -21,8 +23,10 @@ class LegSerializer(serializers.ModelSerializer):
         ]
 
     def create(self, validated_data):
+        position_obj = validated_data['position']
         leg_obj = Leg(
-            position = validated_data['position'],
+            position = position_obj,
+            underlying = validated_data['underlying'],
             datetime = validated_data['datetime'],
             spread = validated_data['spread'],
             side = validated_data['side'],
@@ -33,7 +37,6 @@ class LegSerializer(serializers.ModelSerializer):
             option_type = validated_data['option_type'],
             price = validated_data['price']
         )
-        position_obj = validated_data['position']
         base_price = decimal.Decimal(validated_data['quantity'] * validated_data['price'] * 100)
         commission = decimal.Decimal(abs(validated_data['quantity']) * 1.5)
         position_obj.pl += base_price

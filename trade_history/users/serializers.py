@@ -1,8 +1,11 @@
 from django.contrib.auth.models import User
 from rest_framework import serializers
+from ..positions.models import Position
 
 class UserSerializer(serializers.ModelSerializer):
     email = serializers.EmailField(label='Email Address')
+    positions = serializers.PrimaryKeyRelatedField(many=True, read_only=True, default=None)
+
     class Meta:
         model = User
         fields = [

@@ -6,6 +6,7 @@ class Leg(models.Model):
     POSITION_CHOICES = (("TO OPEN", "TO OPEN"), ("TO CLOSE", "TO CLOSE"))
     OPTION_CHOICES = (("CALL", "CALL"), ("PUT", "PUT"))
     position = models.ForeignKey(Position, on_delete=models.CASCADE, related_name="legs")
+    underlying = models.CharField(max_length=10)
     datetime = models.CharField(max_length=100)
     spread = models.CharField(max_length=100)
     side = models.CharField(max_length=10, choices=SIDE_CHOICES)
